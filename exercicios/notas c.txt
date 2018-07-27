@@ -1,0 +1,200 @@
+
+http://www.cplusplus.com/reference/list/list/
+
+#include <stdio.h> 
+
+"<stdio.h>" insere a libraria que se quer dentro do menor e maior
+
+int main()
+{
+			1a função chamada, o ponto por onde ele começa menos o "int"
+}
+
+
+é considerado boa prática usar o int
+
+return 0 = define o tipo de retorno, neste caso "0"
+
+uma função abre com chavetas "{" e fecha com chavetas "}"
+
+&& = e
+
+%i = número inteiro
+
+%f = número real com vírgulas etc
+
+";" = instrução finalizou
+
+"&" = símbolo de endereçamento de memória
+
+"%" = MOD
+
+"%%" = para escrever a percentagem mesmo em vez de fazer MOD
+
+\" e \\ = para escrever uma barra
+
+++ Incremento à frente incremente depois mas antes atribui logo
+
+-- Decremento à frente incremente depois mas antes atribui logo
+
+include = directiva de pre-processador
+
+!= diferente de
+
+Operadores
+
+! Negaçao (NOT)
+
+&& Conjunção (AND)
+
+|| Disjunção (OR)
+
+é necessário incluir o #include <string.h>
+string: size_t strlen //length
+
+
+-------------------------------------------------------
+principais dados: float, int, char
+
+especificadores de conversão:
+
+float: %f = número real com vírgulas etc
+
+int: %i ou %d
+
+char: %c
+
+--------------------------------------------------------
+
+#include <stdio.h>
+int main ()
+{
+int idade;
+printf("Insira a idade:");
+scanf("%i",&idade);
+printf("A sua idade: %i",idade);
+return 0;
+}
+
+
+
+n escrever de guardar em ".c"
+
+-------------------------------------------------------
+
+
+
+fazer um if:
+
+if(condição)
+{
+
+}
+else if( ) 
+{
+
+--------------------------------------------------------
+
+sequências de escape:
+
+\n
+
+\n \r = para o windows
+
+para fazer quebra de linha
+
+--------------------------------------------------------
+
+23-11-2017
+
+string: conjunto de caracteres, array de caracteres
+
+--------------------------------------------------------
+
+#include <stdio.h>
+int main()
+{
+    int idade;
+    char nome[51];
+    printf("nome");
+    scanf("%50[^\n]", nome);
+    printf("idade");
+    scanf("%i",&idade);
+    if(idade>17)
+        printf("Olá %s,es maior de idade", nome);
+        else
+        printf("ola %s, rapaz", nome);
+    return 0;
+}
+
+
+--------------------------------------------------------
+
+#include <stdio.h>
+int main()
+{
+    int numero1;
+    int numero2;
+    printf("Insira um número:\n");
+    scanf("%i", &numero1);
+    printf("Insira outro número:\n");
+    scanf("%i", &numero2);
+    if(numero1>numero2)
+        printf("O maior e %i", numero1);
+    else
+        printf("O maior e %i", numero2);
+    return 0;
+
+}
+
+--------------------------------------------------------
+
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+	printf("num1:");
+	scanf("%i",&num1);
+	printf("num2:");
+    scanf("%i",&num2);
+	if(num1>num2)
+	printf("%i é o maior", num1);
+	else
+	printf("%i e o maior", num2);
+	return 0;
+
+}
+
+--------------------------------------------------------
+
+
+#include <stdio.h>
+int main()
+{
+    int nota;
+    printf("nota: ");
+    scanf("%i",&nota);
+    if(nota<10)
+    {
+        printf("%i nao satisfaz", nota);
+    }
+    else if (nota<14)
+    {
+            printf("%i satisfaz", nota);
+    }
+    else if (nota <18)
+    {
+        printf("%i Bom", nota);
+    }
+    else
+    {
+        printf("%i Muito Bom",nota);
+    }
+    return 0;
+}
+
+--------------------------------------------------------
+
+
+

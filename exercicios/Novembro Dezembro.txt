@@ -1,0 +1,30 @@
+Pedir inota
+
+nota <10 = não satisfaz
+nota >10 <14 = satisfaz
+nota >=14 <18 = bom
+nota >=18 = muito bom
+
+
+--------------------------------------------------------
+
+Converter segundos para horas
+
+--------------------------------------------------------
+taxa de câbio
+
+--------------------------------------------------------
+dar valor de taxa de cambio
+
+--------------------------------------------------------
+
+tornar segundos para horas minutos e segundos com o mod %
+
+--------------------------------------------------------
+
+dividir 3600 / 3663 dá 63
+>3600 dá uma hora
+>>63 é o restante
+
+
+1,0183
